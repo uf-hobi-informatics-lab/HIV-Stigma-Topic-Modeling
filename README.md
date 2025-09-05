@@ -5,5 +5,21 @@ This project applies natural language processing (NLP) and topic modeling to ele
 ![Demo Screenshot](image/flow_chart.png)
 
 
-## Latent Dirichlet Allocation (LDA) 
-[Gensim](https://radimrehurek.com/gensim/models/ldamodel.html)
+### Latent Dirichlet Allocation (LDA) 
+[Gensim](https://radimrehurek.com/gensim/models/ldamodel.html) was been used
+
+## Citation
+Please cite our paper: https://arxiv.org/abs/2506.09279
+```
+@article{chen2025topic,
+  title={A Topic Modeling Analysis of Stigma Dimensions, Social, and Related Behavioral Circumstances in Clinical Notes Among Patients with HIV},
+  author={Chen, Ziyi and Liu, Yiyang and Prosperi, Mattia and Vaddiparti, Krishna and Cook, Robert L and Bian, Jiang and Guo, Yi and Wu, Yonghui},
+  journal={arXiv preprint arXiv:2506.09279},
+  year={2025}
+}
+```
+
+## Contact
+Please contact us or post an issue if you have any questions.
+* Ziyi Chen (chenziyi@ufl.edu)
+* Yonghui Wu (yonghui.wu@ufl.edu)
