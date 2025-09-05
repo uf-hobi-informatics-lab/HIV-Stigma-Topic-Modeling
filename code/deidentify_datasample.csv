@@ -1,0 +1,6 @@
+note_id,patient_id,note_text
+1,11,Chief Complaint:  Patient presents with
+2,22,History   Social History    Marital Status:
+3,33, Objective:   PHYSICAL EXAMINATION: Temp(Src) 36.8 °C 
+4,44,[**DATE**]         Assessment and Plan: 
+5,55,I have discussed my plan with my attending
