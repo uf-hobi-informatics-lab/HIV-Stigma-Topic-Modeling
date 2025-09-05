@@ -19,7 +19,7 @@ This project applies natural language processing (NLP) and topic modeling to ele
 1. Clone the repository:
 ```shell script
 git clone https://github.com/uf-hobi-informatics-lab/HIV-Stigma-Topic-Modeling.git
-cd hiv-stigma-topic-modeling
+cd HIV-Stigma-Topic-Modeling
 ```
 2. Prepare your dataset as a CSV file with a column note_text from clinical notes.
 3. Run the LDA pipeline:
