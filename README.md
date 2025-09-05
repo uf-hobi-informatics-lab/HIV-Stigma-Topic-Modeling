@@ -28,7 +28,7 @@ python code/lda_hiv_stigma.py
 ```
 4. The script will output:
 output.csv containing iteration, number of topics, coherence score, Jaccard similarity, and topic diversity
-Printed topics for each iteration and topic number
+5. Printed topics for each iteration and topic number
 
 ## 📚 Citation
 Please cite our paper: https://arxiv.org/abs/2506.09279
