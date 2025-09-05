@@ -5,22 +5,17 @@ This project applies natural language processing (NLP) and topic modeling to ele
 ![Demo Screenshot](image/flow_chart.png)
 
 
-## Features
-
+## ⚡ Intro
 - Text Preprocessing:
   Stopword removal, punctuation filtering, and lemmatization
-
-- Topic Modeling: Latent Dirichlet Allocation (LDA) [Gensim](https://radimrehurek.com/gensim/models/ldamodel.html) 
-
-- Evaluation Metrics: Coherence Score (c_v), Average Jaccard Similarity across topics, Topic Diversity
-
-- Automated Analysis: Iterate over multiple numbers of topics and iterations to identify optimal model parameters
-
+- Topic Modeling: `Latent Dirichlet Allocation (LDA)` [Gensim](https://radimrehurek.com/gensim/models/ldamodel.html) 
+- Evaluation Metrics: `Coherence Score`, `Average Jaccard Similarity`, `Topic Diversity`
+- Automated Analysis: Iterate over multiple `numbers of topics` and `iterations` to identify optimal model parameters
 - Result Export: Outputs metrics for all experiments into a CSV file for downstream analysis
 
-### 🚀 Usage
+## 🚀 Usage
 
-1. Prepare your dataset as a CSV file with a column note_text containing clinical notes.
+1. Prepare your dataset as a CSV file with a column note_text from clinical notes.
 2. Run the LDA pipeline:
 ```shell script
 python lda_hiv_stigma.py
@@ -29,7 +24,7 @@ python lda_hiv_stigma.py
 output.csv containing iteration, number of topics, coherence score, Jaccard similarity, and topic diversity
 Printed topics for each iteration and topic number
 
-## Citation
+## 📚 Citation
 Please cite our paper: https://arxiv.org/abs/2506.09279
 ```
 @article{chen2025topic,
