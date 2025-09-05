@@ -9,7 +9,7 @@ This project applies natural language processing (NLP) and topic modeling to ele
 - Load Data: `code/datasample.csv` provided
 - Text Preprocessing:
   Stopword removal, punctuation filtering, and lemmatization
-- Topic Modeling: `Latent Dirichlet Allocation (LDA)` [Gensim](https://radimrehurek.com/gensim/models/ldamodel.html) 
+- Topic Modeling: `Latent Dirichlet Allocation (LDA)` from [Gensim](https://radimrehurek.com/gensim/models/ldamodel.html) 
 - Evaluation Metrics: `Coherence Score`, `Average Jaccard Similarity`, `Topic Diversity`
 - Automated Analysis: Iterate over multiple `numbers of topics` and `iterations` to identify optimal model parameters
 - Result Export: Outputs metrics for all experiments into a CSV file for downstream analysis
