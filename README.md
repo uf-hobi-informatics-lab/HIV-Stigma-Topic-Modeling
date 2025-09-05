@@ -6,7 +6,7 @@ This project applies natural language processing (NLP) and topic modeling to ele
 
 
 ## ⚡ Intro
-- Load Data: `datasample.csv` provided
+- Load Data: `code/datasample.csv` provided
 - Text Preprocessing:
   Stopword removal, punctuation filtering, and lemmatization
 - Topic Modeling: `Latent Dirichlet Allocation (LDA)` [Gensim](https://radimrehurek.com/gensim/models/ldamodel.html) 
@@ -24,7 +24,7 @@ cd hiv-stigma-topic-modeling
 2. Prepare your dataset as a CSV file with a column note_text from clinical notes.
 3. Run the LDA pipeline:
 ```shell script
-python lda_hiv_stigma.py
+python code/lda_hiv_stigma.py
 ```
 4. The script will output:
 output.csv containing iteration, number of topics, coherence score, Jaccard similarity, and topic diversity
