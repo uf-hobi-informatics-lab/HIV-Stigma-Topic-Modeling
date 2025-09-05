@@ -6,7 +6,7 @@ This project applies natural language processing (NLP) and topic modeling to ele
 
 
 ### Latent Dirichlet Allocation (LDA) 
-[Gensim](https://radimrehurek.com/gensim/models/ldamodel.html) was been used
+[Gensim](https://radimrehurek.com/gensim/models/ldamodel.html) was used
 
 ## Citation
 Please cite our paper: https://arxiv.org/abs/2506.09279
